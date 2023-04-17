@@ -1,5 +1,5 @@
 function decimalToBinary(num){
-	let result = n.toString(target);
+	let result = num.toString(2);
   return result
 }
 
