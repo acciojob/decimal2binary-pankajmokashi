@@ -1,6 +1,10 @@
 function decimalToBinary(num){
-	let result = num.toString(2);
-  return result
+	let binary = '';
+	while (decimal > 0) {
+	    binary = (decimal % 2) + binary;
+	    decimal = Math.floor(decimal / 2);
+	}
+	return binary;
 }
 
 module.exports = decimalToBinary;
