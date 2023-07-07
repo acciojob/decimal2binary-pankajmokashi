@@ -1,10 +1,5 @@
-function decimalToBinary(num){
-	let binary = '';
-	while (decimal > 0) {
-	    binary = (decimal % 2) + binary;
-	    decimal = Math.floor(decimal / 2);
-	}
-	return binary;
+function decimalToBinary(num) {
+  // Write your code here
 }
 
-module.exports = decimalToBinary;
+window.decimalToBinary = decimalToBinary;
